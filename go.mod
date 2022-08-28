@@ -1,4 +1,4 @@
-module GMCLoginHelper
+module github.com/2mf8/GMCLoginHelper
 
 go 1.19
 

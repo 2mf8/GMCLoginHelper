@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GMCLoginHelper/dto"
+	"github.com/2mf8/GMCLoginHelper/dto"
 	"bytes"
 	"encoding/json"
 	"fmt"
