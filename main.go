@@ -1,7 +1,6 @@
 package main
 
 import (
-	"github.com/2mf8/GMCLoginHelper/dto"
 	"bytes"
 	"encoding/json"
 	"fmt"
@@ -10,6 +9,8 @@ import (
 	"os"
 	"os/exec"
 	"time"
+
+	"github.com/2mf8/GMCLoginHelper/dto"
 
 	"strconv"
 
@@ -61,6 +62,8 @@ func LoginJsonCreate() {
 		BotId:          1234567890,
 		Password:       "123456ab",
 		DeviceSeed:     1234567890,
+		SignServer:     "http://kequ5060.cn:8080",
+		SignServerAuth: "114514",
 		ClientProtocol: 1,
 	}
 
